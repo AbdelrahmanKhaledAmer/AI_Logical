@@ -53,35 +53,3 @@ win(S):-
     S = result(kill, S2),
     jon(_, _, _, result(kill, S2)),
     not(whitewalker(_, _, S)).
-
-
-% poss(a, s) -> possible to perform action a in situation s.
-poss(north, S):-
-    jon(R, C, _, S),
-    R2 is R - 1,
-    not(R2 < 0),
-    empty(R2, C, S).
-poss(south, S):-
-    jon(R, C, _, S),
-    R2 is R + 1,
-    rows(RMAX),
-    not(R2 >= RMAX),
-    empty(R2, C, S).
-poss(west, S):-
-    jon(R, C, _, S),
-    C2 is C - 1,
-    not(C2 < 0),
-    empty(R, C2, S).
-poss(east, S):-
-    jon(R, C, _, S),
-    C2 is C + 1,
-    cols(CMAX),
-    not(C2 >= CMAX),
-    empty(R, C2, S).
-poss(pick, S):-
-    jon(R, C, 0, S),
-    dragonstone(R, C).
-poss(kill, S):-
-    jon(_, _, D, S),
-    nearby(_, _, S),
-    D > 0.
