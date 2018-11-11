@@ -15,16 +15,12 @@ dragonstone(2, 0).
 % White-Walker predicates. Some will be removed as the situation differs.
 whitewalker(0, 0, s0).
 whitewalker(R, C, result(A, S)):-
-    whitewalker(R, C, S),
-    (
-        nearby(R, C, S) ->
-        \+A = kill
-    ).
+    whitewalker(R, C, S),(not(nearby(R, C, S));\+A = kill).
 
 % Nearby predicate. Shorthand for when jon is near a White-Walker.
 nearby(R, C, S):-
     jon(R2, C2, _, S),
-    abs(R - R2) + abs(C - C2) is 1.
+    abs(R - R2) + abs(C - C2) =:= 1.
 
 % Empty predicates (Shorthand). More predicates will be added as the situation changes.
 empty(0, 1, _).
