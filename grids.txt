@@ -1,0 +1,730 @@
+rows(3).
+cols(3).
+dragonglass(2).
+obstacle(0, 0).
+whitewalker(0, 1, s0).
+obstacle(0, 2).
+whitewalker(1, 0, s0).
+empty(1, 1, _).
+empty(1, 2, _).
+dragonstone(2, 0).
+empty(2, 1, _).
+empty(2, 2, _).
+jon(2,2,0, s0).
+
+=====
+rows(3).
+cols(3).
+dragonglass(2).
+whitewalker(0, 0, s0).
+whitewalker(0, 1, s0).
+dragonstone(0, 2).
+obstacle(1, 0).
+empty(1, 1, _).
+empty(1, 2, _).
+whitewalker(2, 0, s0).
+empty(2, 1, _).
+empty(2, 2, _).
+jon(2,2,0, s0).
+
+=====
+rows(3).
+cols(3).
+dragonglass(2).
+obstacle(0, 0).
+obstacle(0, 1).
+whitewalker(0, 2, s0).
+whitewalker(1, 0, s0).
+empty(1, 1, _).
+obstacle(1, 2).
+whitewalker(2, 0, s0).
+dragonstone(2, 1).
+empty(2, 2, _).
+jon(2,2,0, s0).
+
+=====
+rows(3).
+cols(3).
+dragonglass(2).
+obstacle(0, 0).
+whitewalker(0, 1, s0).
+empty(0, 2, _).
+dragonstone(1, 0).
+obstacle(1, 1).
+empty(1, 2, _).
+empty(2, 0, _).
+obstacle(2, 1).
+empty(2, 2, _).
+jon(2,2,0, s0).
+
+=====
+rows(3).
+cols(3).
+dragonglass(2).
+empty(0, 0, _).
+empty(0, 1, _).
+dragonstone(0, 2).
+whitewalker(1, 0, s0).
+empty(1, 1, _).
+obstacle(1, 2).
+empty(2, 0, _).
+empty(2, 1, _).
+empty(2, 2, _).
+jon(2,2,0, s0).
+
+=====
+rows(3).
+cols(3).
+dragonglass(2).
+empty(0, 0, _).
+empty(0, 1, _).
+empty(0, 2, _).
+obstacle(1, 0).
+whitewalker(1, 1, s0).
+empty(1, 2, _).
+empty(2, 0, _).
+dragonstone(2, 1).
+empty(2, 2, _).
+jon(2,2,0, s0).
+
+=====
+rows(3).
+cols(3).
+dragonglass(2).
+empty(0, 0, _).
+obstacle(0, 1).
+whitewalker(0, 2, s0).
+whitewalker(1, 0, s0).
+empty(1, 1, _).
+empty(1, 2, _).
+obstacle(2, 0).
+dragonstone(2, 1).
+empty(2, 2, _).
+jon(2,2,0, s0).
+
+=====
+rows(3).
+cols(3).
+dragonglass(3).
+empty(0, 0, _).
+whitewalker(0, 1, s0).
+empty(0, 2, _).
+obstacle(1, 0).
+whitewalker(1, 1, s0).
+obstacle(1, 2).
+dragonstone(2, 0).
+empty(2, 1, _).
+empty(2, 2, _).
+jon(2,2,0, s0).
+
+=====
+rows(3).
+cols(3).
+dragonglass(2).
+dragonstone(0, 0).
+empty(0, 1, _).
+empty(0, 2, _).
+empty(1, 0, _).
+whitewalker(1, 1, s0).
+obstacle(1, 2).
+empty(2, 0, _).
+obstacle(2, 1).
+empty(2, 2, _).
+jon(2,2,0, s0).
+
+=====
+rows(3).
+cols(3).
+dragonglass(3).
+obstacle(0, 0).
+empty(0, 1, _).
+whitewalker(0, 2, s0).
+empty(1, 0, _).
+whitewalker(1, 1, s0).
+dragonstone(1, 2).
+obstacle(2, 0).
+whitewalker(2, 1, s0).
+empty(2, 2, _).
+jon(2,2,0, s0).
+
+=====
+rows(3).
+cols(4).
+dragonglass(3).
+whitewalker(0, 0, s0).
+obstacle(0, 1).
+dragonstone(0, 2).
+empty(0, 3, _).
+obstacle(1, 0).
+empty(1, 1, _).
+whitewalker(1, 2, s0).
+whitewalker(1, 3, s0).
+empty(2, 0, _).
+whitewalker(2, 1, s0).
+empty(2, 2, _).
+empty(2, 3, _).
+jon(2,3,0, s0).
+
+=====
+rows(3).
+cols(4).
+dragonglass(2).
+obstacle(0, 0).
+whitewalker(0, 1, s0).
+dragonstone(0, 2).
+obstacle(0, 3).
+empty(1, 0, _).
+empty(1, 1, _).
+empty(1, 2, _).
+empty(1, 3, _).
+obstacle(2, 0).
+empty(2, 1, _).
+empty(2, 2, _).
+empty(2, 3, _).
+jon(2,3,0, s0).
+
+=====
+rows(3).
+cols(4).
+dragonglass(3).
+whitewalker(0, 0, s0).
+dragonstone(0, 1).
+whitewalker(0, 2, s0).
+empty(0, 3, _).
+whitewalker(1, 0, s0).
+obstacle(1, 1).
+empty(1, 2, _).
+obstacle(1, 3).
+obstacle(2, 0).
+obstacle(2, 1).
+whitewalker(2, 2, s0).
+empty(2, 3, _).
+jon(2,3,0, s0).
+
+=====
+rows(3).
+cols(4).
+dragonglass(2).
+empty(0, 0, _).
+dragonstone(0, 1).
+empty(0, 2, _).
+empty(0, 3, _).
+empty(1, 0, _).
+obstacle(1, 1).
+whitewalker(1, 2, s0).
+empty(1, 3, _).
+empty(2, 0, _).
+empty(2, 1, _).
+empty(2, 2, _).
+empty(2, 3, _).
+jon(2,3,0, s0).
+
+=====
+rows(3).
+cols(4).
+dragonglass(2).
+dragonstone(0, 0).
+empty(0, 1, _).
+empty(0, 2, _).
+empty(0, 3, _).
+obstacle(1, 0).
+whitewalker(1, 1, s0).
+empty(1, 2, _).
+obstacle(1, 3).
+whitewalker(2, 0, s0).
+empty(2, 1, _).
+empty(2, 2, _).
+empty(2, 3, _).
+jon(2,3,0, s0).
+
+=====
+rows(3).
+cols(4).
+dragonglass(2).
+empty(0, 0, _).
+empty(0, 1, _).
+obstacle(0, 2).
+empty(0, 3, _).
+whitewalker(1, 0, s0).
+empty(1, 1, _).
+empty(1, 2, _).
+empty(1, 3, _).
+obstacle(2, 0).
+dragonstone(2, 1).
+obstacle(2, 2).
+empty(2, 3, _).
+jon(2,3,0, s0).
+
+=====
+rows(3).
+cols(4).
+dragonglass(2).
+empty(0, 0, _).
+obstacle(0, 1).
+empty(0, 2, _).
+dragonstone(0, 3).
+obstacle(1, 0).
+empty(1, 1, _).
+obstacle(1, 2).
+empty(1, 3, _).
+empty(2, 0, _).
+whitewalker(2, 1, s0).
+empty(2, 2, _).
+empty(2, 3, _).
+jon(2,3,0, s0).
+
+=====
+rows(3).
+cols(4).
+dragonglass(2).
+dragonstone(0, 0).
+empty(0, 1, _).
+empty(0, 2, _).
+empty(0, 3, _).
+empty(1, 0, _).
+empty(1, 1, _).
+obstacle(1, 2).
+obstacle(1, 3).
+empty(2, 0, _).
+whitewalker(2, 1, s0).
+whitewalker(2, 2, s0).
+empty(2, 3, _).
+jon(2,3,0, s0).
+
+=====
+rows(3).
+cols(4).
+dragonglass(2).
+obstacle(0, 0).
+dragonstone(0, 1).
+empty(0, 2, _).
+empty(0, 3, _).
+whitewalker(1, 0, s0).
+obstacle(1, 1).
+obstacle(1, 2).
+empty(1, 3, _).
+empty(2, 0, _).
+empty(2, 1, _).
+obstacle(2, 2).
+empty(2, 3, _).
+jon(2,3,0, s0).
+
+=====
+rows(3).
+cols(4).
+dragonglass(3).
+empty(0, 0, _).
+obstacle(0, 1).
+empty(0, 2, _).
+whitewalker(0, 3, s0).
+dragonstone(1, 0).
+obstacle(1, 1).
+obstacle(1, 2).
+empty(1, 3, _).
+whitewalker(2, 0, s0).
+whitewalker(2, 1, s0).
+obstacle(2, 2).
+empty(2, 3, _).
+jon(2,3,0, s0).
+
+=====
+rows(4).
+cols(3).
+dragonglass(2).
+dragonstone(0, 0).
+empty(0, 1, _).
+whitewalker(0, 2, s0).
+empty(1, 0, _).
+whitewalker(1, 1, s0).
+empty(1, 2, _).
+whitewalker(2, 0, s0).
+empty(2, 1, _).
+empty(2, 2, _).
+empty(3, 0, _).
+obstacle(3, 1).
+empty(3, 2, _).
+jon(3,2,0, s0).
+
+=====
+rows(4).
+cols(3).
+dragonglass(2).
+empty(0, 0, _).
+empty(0, 1, _).
+empty(0, 2, _).
+obstacle(1, 0).
+obstacle(1, 1).
+dragonstone(1, 2).
+whitewalker(2, 0, s0).
+obstacle(2, 1).
+empty(2, 2, _).
+empty(3, 0, _).
+obstacle(3, 1).
+empty(3, 2, _).
+jon(3,2,0, s0).
+
+=====
+rows(4).
+cols(3).
+dragonglass(2).
+empty(0, 0, _).
+obstacle(0, 1).
+obstacle(0, 2).
+obstacle(1, 0).
+empty(1, 1, _).
+whitewalker(1, 2, s0).
+whitewalker(2, 0, s0).
+dragonstone(2, 1).
+empty(2, 2, _).
+empty(3, 0, _).
+obstacle(3, 1).
+empty(3, 2, _).
+jon(3,2,0, s0).
+
+=====
+rows(4).
+cols(3).
+dragonglass(2).
+obstacle(0, 0).
+empty(0, 1, _).
+empty(0, 2, _).
+dragonstone(1, 0).
+whitewalker(1, 1, s0).
+obstacle(1, 2).
+empty(2, 0, _).
+empty(2, 1, _).
+obstacle(2, 2).
+empty(3, 0, _).
+empty(3, 1, _).
+empty(3, 2, _).
+jon(3,2,0, s0).
+
+=====
+rows(4).
+cols(3).
+dragonglass(2).
+empty(0, 0, _).
+whitewalker(0, 1, s0).
+whitewalker(0, 2, s0).
+whitewalker(1, 0, s0).
+empty(1, 1, _).
+empty(1, 2, _).
+dragonstone(2, 0).
+obstacle(2, 1).
+obstacle(2, 2).
+obstacle(3, 0).
+empty(3, 1, _).
+empty(3, 2, _).
+jon(3,2,0, s0).
+
+=====
+rows(4).
+cols(3).
+dragonglass(2).
+obstacle(0, 0).
+empty(0, 1, _).
+empty(0, 2, _).
+obstacle(1, 0).
+empty(1, 1, _).
+whitewalker(1, 2, s0).
+whitewalker(2, 0, s0).
+obstacle(2, 1).
+dragonstone(2, 2).
+whitewalker(3, 0, s0).
+obstacle(3, 1).
+empty(3, 2, _).
+jon(3,2,0, s0).
+
+=====
+rows(4).
+cols(3).
+dragonglass(3).
+empty(0, 0, _).
+empty(0, 1, _).
+obstacle(0, 2).
+whitewalker(1, 0, s0).
+dragonstone(1, 1).
+whitewalker(1, 2, s0).
+empty(2, 0, _).
+obstacle(2, 1).
+whitewalker(2, 2, s0).
+obstacle(3, 0).
+whitewalker(3, 1, s0).
+empty(3, 2, _).
+jon(3,2,0, s0).
+
+=====
+rows(4).
+cols(3).
+dragonglass(3).
+whitewalker(0, 0, s0).
+empty(0, 1, _).
+dragonstone(0, 2).
+whitewalker(1, 0, s0).
+empty(1, 1, _).
+obstacle(1, 2).
+obstacle(2, 0).
+whitewalker(2, 1, s0).
+empty(2, 2, _).
+empty(3, 0, _).
+empty(3, 1, _).
+empty(3, 2, _).
+jon(3,2,0, s0).
+
+=====
+rows(4).
+cols(3).
+dragonglass(3).
+empty(0, 0, _).
+whitewalker(0, 1, s0).
+whitewalker(0, 2, s0).
+empty(1, 0, _).
+whitewalker(1, 1, s0).
+empty(1, 2, _).
+obstacle(2, 0).
+dragonstone(2, 1).
+empty(2, 2, _).
+whitewalker(3, 0, s0).
+empty(3, 1, _).
+empty(3, 2, _).
+jon(3,2,0, s0).
+
+=====
+rows(4).
+cols(3).
+dragonglass(2).
+dragonstone(0, 0).
+whitewalker(0, 1, s0).
+empty(0, 2, _).
+obstacle(1, 0).
+obstacle(1, 1).
+obstacle(1, 2).
+whitewalker(2, 0, s0).
+whitewalker(2, 1, s0).
+empty(2, 2, _).
+whitewalker(3, 0, s0).
+empty(3, 1, _).
+empty(3, 2, _).
+jon(3,2,0, s0).
+
+=====
+rows(4).
+cols(4).
+dragonglass(3).
+obstacle(0, 0).
+empty(0, 1, _).
+whitewalker(0, 2, s0).
+dragonstone(0, 3).
+empty(1, 0, _).
+empty(1, 1, _).
+empty(1, 2, _).
+empty(1, 3, _).
+empty(2, 0, _).
+whitewalker(2, 1, s0).
+empty(2, 2, _).
+empty(2, 3, _).
+empty(3, 0, _).
+empty(3, 1, _).
+empty(3, 2, _).
+empty(3, 3, _).
+jon(3,3,0, s0).
+
+=====
+rows(4).
+cols(4).
+dragonglass(2).
+dragonstone(0, 0).
+empty(0, 1, _).
+empty(0, 2, _).
+empty(0, 3, _).
+empty(1, 0, _).
+empty(1, 1, _).
+empty(1, 2, _).
+empty(1, 3, _).
+empty(2, 0, _).
+empty(2, 1, _).
+obstacle(2, 2).
+empty(2, 3, _).
+empty(3, 0, _).
+empty(3, 1, _).
+whitewalker(3, 2, s0).
+empty(3, 3, _).
+jon(3,3,0, s0).
+
+=====
+rows(4).
+cols(4).
+dragonglass(3).
+empty(0, 0, _).
+empty(0, 1, _).
+empty(0, 2, _).
+empty(0, 3, _).
+empty(1, 0, _).
+empty(1, 1, _).
+obstacle(1, 2).
+empty(1, 3, _).
+dragonstone(2, 0).
+empty(2, 1, _).
+empty(2, 2, _).
+empty(2, 3, _).
+whitewalker(3, 0, s0).
+whitewalker(3, 1, s0).
+empty(3, 2, _).
+empty(3, 3, _).
+jon(3,3,0, s0).
+
+=====
+rows(4).
+cols(4).
+dragonglass(2).
+whitewalker(0, 0, s0).
+empty(0, 1, _).
+empty(0, 2, _).
+obstacle(0, 3).
+empty(1, 0, _).
+empty(1, 1, _).
+whitewalker(1, 2, s0).
+empty(1, 3, _).
+empty(2, 0, _).
+obstacle(2, 1).
+empty(2, 2, _).
+whitewalker(2, 3, s0).
+dragonstone(3, 0).
+obstacle(3, 1).
+empty(3, 2, _).
+empty(3, 3, _).
+jon(3,3,0, s0).
+
+=====
+rows(4).
+cols(4).
+dragonglass(2).
+empty(0, 0, _).
+empty(0, 1, _).
+empty(0, 2, _).
+obstacle(0, 3).
+obstacle(1, 0).
+whitewalker(1, 1, s0).
+empty(1, 2, _).
+empty(1, 3, _).
+empty(2, 0, _).
+empty(2, 1, _).
+dragonstone(2, 2).
+empty(2, 3, _).
+obstacle(3, 0).
+obstacle(3, 1).
+empty(3, 2, _).
+empty(3, 3, _).
+jon(3,3,0, s0).
+
+=====
+rows(4).
+cols(4).
+dragonglass(2).
+obstacle(0, 0).
+dragonstone(0, 1).
+whitewalker(0, 2, s0).
+empty(0, 3, _).
+empty(1, 0, _).
+empty(1, 1, _).
+empty(1, 2, _).
+obstacle(1, 3).
+obstacle(2, 0).
+empty(2, 1, _).
+empty(2, 2, _).
+empty(2, 3, _).
+obstacle(3, 0).
+empty(3, 1, _).
+empty(3, 2, _).
+empty(3, 3, _).
+jon(3,3,0, s0).
+
+=====
+rows(4).
+cols(4).
+dragonglass(2).
+empty(0, 0, _).
+empty(0, 1, _).
+empty(0, 2, _).
+empty(0, 3, _).
+whitewalker(1, 0, s0).
+empty(1, 1, _).
+empty(1, 2, _).
+obstacle(1, 3).
+empty(2, 0, _).
+whitewalker(2, 1, s0).
+dragonstone(2, 2).
+empty(2, 3, _).
+empty(3, 0, _).
+whitewalker(3, 1, s0).
+obstacle(3, 2).
+empty(3, 3, _).
+jon(3,3,0, s0).
+
+=====
+rows(4).
+cols(4).
+dragonglass(2).
+dragonstone(0, 0).
+whitewalker(0, 1, s0).
+whitewalker(0, 2, s0).
+obstacle(0, 3).
+empty(1, 0, _).
+empty(1, 1, _).
+empty(1, 2, _).
+obstacle(1, 3).
+obstacle(2, 0).
+empty(2, 1, _).
+whitewalker(2, 2, s0).
+empty(2, 3, _).
+empty(3, 0, _).
+whitewalker(3, 1, s0).
+obstacle(3, 2).
+empty(3, 3, _).
+jon(3,3,0, s0).
+
+=====
+rows(4).
+cols(4).
+dragonglass(2).
+empty(0, 0, _).
+empty(0, 1, _).
+empty(0, 2, _).
+whitewalker(0, 3, s0).
+empty(1, 0, _).
+whitewalker(1, 1, s0).
+empty(1, 2, _).
+dragonstone(1, 3).
+empty(2, 0, _).
+empty(2, 1, _).
+empty(2, 2, _).
+empty(2, 3, _).
+obstacle(3, 0).
+empty(3, 1, _).
+obstacle(3, 2).
+empty(3, 3, _).
+jon(3,3,0, s0).
+
+=====
+rows(4).
+cols(4).
+dragonglass(3).
+empty(0, 0, _).
+whitewalker(0, 1, s0).
+empty(0, 2, _).
+empty(0, 3, _).
+obstacle(1, 0).
+empty(1, 1, _).
+empty(1, 2, _).
+empty(1, 3, _).
+empty(2, 0, _).
+whitewalker(2, 1, s0).
+obstacle(2, 2).
+whitewalker(2, 3, s0).
+empty(3, 0, _).
+dragonstone(3, 1).
+empty(3, 2, _).
+empty(3, 3, _).
+jon(3,3,0, s0).
+
+=====
