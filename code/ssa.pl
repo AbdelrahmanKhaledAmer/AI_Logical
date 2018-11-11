@@ -43,23 +43,21 @@ jon(R, C, D, result(A, S)):-
     (
         jon(R2, C2, D2, S),
         (
-            ( 
-                D is D2,
-                (A = north, poss(north, S), R is R2 - 1, C is C2);
-                (A = south, poss(south, S), R is R2 + 1, C is C2);
-                (A = east, poss(east, S), R is R2, C is C2 + 1);
-                (A = west, poss(west, S), R is R2, C is C2 - 1)
-            )
-        ),
-        (
-            R is R2, C is C2,
-            (A = kill) -> (poss(kill, S), D is D2 - 1)
-        ),
-        (
-            R is R2, C is C2,
-            (A = pick) -> (poss(pick, S), dragonglass(D))
+            (A = north, R is R2 - 1, not(R < 0), C is C2, empty(R2, C, S), D is D2);
+            (A = south, R is R2 + 1, rows(RMAX), not(R >= RMAX), C is C2, empty(R2, C, S), D is D2);
+            (A = west, C is C2 - 1, not(C < 0), R is R2, empty(R2, C, S), D is D2);
+            (A = east, C is C2 + 1, cols(CMAX), not(C >= CMAX), R is R2, empty(R2, C, S), D is D2);
+            (A = kill, nearby(_, _, S), D2 > 0, D is D2 - 1);
+            (A = pick, dragonstone(R, C), D2 = 0, dragonglass(D))
         )
     ).
+
+% Win State.
+win(S):-
+    S = result(kill, S2),
+    jon(_, _, _, result(kill, S2)),
+    not(whitewalker(_, _, S)).
+
 
 % poss(a, s) -> possible to perform action a in situation s.
 poss(north, S):-
@@ -91,29 +89,3 @@ poss(kill, S):-
     jon(_, _, D, S),
     nearby(_, _, S),
     D > 0.
-
-% Win State.
-win(result(A, S)):-
-    (
-        (
-            A = kill,
-            whitewalker(X, Y, S),
-            jon(_, _, D, S),
-            nearby(X, Y, S),
-            D > 0,
-            (
-                not(whitewalker(Z, W, S)),
-                Z \= X,
-                W \= Y
-            )
-        );
-        (
-            not(whitewalker(_, _, S))
-        )
-    ).
-
-% Legal axioms. Wether a state is legal or not.
-legal(s0).
-legal(result(A, S)):-
-    legal(S),
-    poss(A, S).
