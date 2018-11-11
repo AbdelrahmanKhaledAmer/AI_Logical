@@ -43,8 +43,8 @@ jon(R, C, D, result(A, S)):-
             (A = south, R is R2 + 1, rows(RMAX), not(R >= RMAX), C is C2, empty(R2, C, S), D is D2);
             (A = west, C is C2 - 1, not(C < 0), R is R2, empty(R2, C, S), D is D2);
             (A = east, C is C2 + 1, cols(CMAX), not(C >= CMAX), R is R2, empty(R2, C, S), D is D2);
-            (A = kill, nearby(_, _, S), D2 > 0, D is D2 - 1);
-            (A = pick, dragonstone(R, C), D2 = 0, dragonglass(D))
+            (A = kill, whitewalker(WR,WC, S), D2 > 0, D is D2 - 1, R = R2,C = C2,  abs(WR - R2) + abs(WC - C2) =:= 1);
+            (A = pick, dragonstone(R, C), D2 = 0, dragonglass(D),R = R2,C = C2)
         )
     ).
 
