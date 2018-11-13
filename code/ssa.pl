@@ -17,7 +17,7 @@ whitewalker(R, C, result(A, S)):-
     whitewalker(R, C, S),
     (
         not(A = kill);
-        not((jon(R2, C2, _, S), abs(R - R2) + abs(C - C2) =:= 1))
+        not((jon(R2, C2, D2, S), abs(R - R2) + abs(C - C2) =:= 1, D2 > 0))
     ).
 
 empty(R, C, S):-
